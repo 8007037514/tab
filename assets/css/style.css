@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.myTab{
+    list-style: none;
+    background-color: black;
+    width: 100%;
+    /* border: 2px solid red; */
+    
+}
+
+.myTab li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #fff;
+    transition: all 0.2s ease-in-out;
+   
+
+}
+.myTab li:hover, .myTab li:active, .myTab li:focus{
+    background-color: orange;
+}
+.active{
+   background-color: orange ;
+}
+
+.mytabContent{
+    border: 2px solid black;
+    /* display: none; */
+
+}
+
+.mytabContent p{
+    display: none;
+}
+
+.mytabContent .first-para{
+    display: block;
+}
